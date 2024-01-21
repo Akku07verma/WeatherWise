@@ -1,0 +1,98 @@
+/* Add your custom styles here */
+
+body {
+    background-size: cover;
+    height: 100vh;
+    background-color: #f8f9fa;
+    color: #343a40;
+   
+  }
+  
+  .container {
+    margin-top: 30px;
+  }
+  
+  .navbar {
+    background-color: #007bff;
+  }
+  
+  .navbar-brand {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #000;
+  }
+  
+  .nav-link:hover {
+    color: #ced4da;
+  }
+  
+  .form-control {
+    width: 300px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18) ;
+    box-shadow: rgba(255,255,255,0.37);
+   
+  }
+  
+  .card-header {
+    background-color: #00415D;
+    color: #ffffff;
+  }
+  
+  .card-title {
+    font-size: 2.5em;
+  }
+  /* Modify this part of your existing CSS file */
+
+.card-body {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Adjust the values for your preferred box shadow appearance */
+
+  .list-unstyled li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  /* Customize dropdown menu */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Optional: Add media queries for responsiveness */
+  @media (max-width: 768px) {
+    .form-control {
+      width: 100%;
+    }
+  }
+  /* Add this to your existing CSS file */
+
+.btn-outline-success {
+    color: #00415D;
+    border-color: #00415D;
+}
+
+.btn-outline-success:hover {
+    background-color: #00415D;
+    color: #ffffff;
+}
+
+  
